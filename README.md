@@ -27,7 +27,7 @@ Watch the SoccerLens mobile app in action through these screenshots:
 ![Advanced Filters](https://github.com/GoosieGav/SoccerLens/assets/3249833651/issue-6-screenshot)
 
 **Similar Players Feature**
-![Similar Players](https://github.com/GoosieGav/SoccerLens/assets/3249834790/issue-7-screenshot)
+![Similar Players](https://github.com/GoosieGav/SoccerLens/issues/7#issue-3249834790)
 
 ## Features
 
