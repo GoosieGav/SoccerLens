@@ -9,25 +9,28 @@ Watch the SoccerLens mobile app in action through these screenshots:
 ### App Features Showcase
 
 **Home Screen & Navigation**
-![Home Screen](https://github.com/GoosieGav/SoccerLens/assets/3249815758/issue-1-screenshot)
+![Home Screen](demo-screenshots/home-screen.png)
 
 **Player Search & Filtering**
-![Search & Filters](https://github.com/GoosieGav/SoccerLens/assets/3249829361/issue-2-screenshot)
+![Search & Filters](demo-screenshots/search-players.png)
 
 **Sorting by Name**
-![Sort by Name](https://github.com/GoosieGav/SoccerLens/assets/3249830378/issue-3-screenshot)
+![Sort by Name](demo-screenshots/sort-by-name.png)
 
 **Sorting by Goals**
-![Sort by Goals](https://github.com/GoosieGav/SoccerLens/assets/3249831404/issue-4-screenshot)
+![Sort by Goals](demo-screenshots/sort-by-goals.png)
 
 **Sorting by Assists**
-![Sort by Assists](https://github.com/GoosieGav/SoccerLens/assets/3249833044/issue-5-screenshot)
+![Sort by Assists](demo-screenshots/sort-by-assists.png)
 
 **Advanced Filters**
-![Advanced Filters](https://github.com/GoosieGav/SoccerLens/assets/3249833651/issue-6-screenshot)
+![Advanced Filters](demo-screenshots/advanced-filters.png)
 
 **Similar Players Feature**
-![Similar Players](https://github.com/GoosieGav/SoccerLens/assets/3249834790/issue-7-screenshot)
+![Similar Players](demo-screenshots/similar-players.png)
+
+**Player Details**
+![Player Details](demo-screenshots/player-details.png)
 
 ## Features
 
