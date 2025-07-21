@@ -4,11 +4,30 @@ Your Ultimate Soccer Player Search & Analytics Platform
 
 ## Demo
 
-Watch the SoccerLens mobile app in action:
+Watch the SoccerLens mobile app in action through these screenshots:
 
-[Screen Recording Demo](https://github.com/YOUR_USERNAME/SoccerLens/assets/YOUR_USER_ID/demo-recording.mp4)
+### App Features Showcase
 
-*Note: Replace the placeholder URL with your actual GitHub repository and asset URL after uploading the screen recording*
+**Home Screen & Navigation**
+![Home Screen](https://github.com/GoosieGav/SoccerLens/assets/3249815758/issue-1-screenshot)
+
+**Player Search & Filtering**
+![Search & Filters](https://github.com/GoosieGav/SoccerLens/assets/3249829361/issue-2-screenshot)
+
+**Sorting by Name**
+![Sort by Name](https://github.com/GoosieGav/SoccerLens/assets/3249830378/issue-3-screenshot)
+
+**Sorting by Goals**
+![Sort by Goals](https://github.com/GoosieGav/SoccerLens/assets/3249831404/issue-4-screenshot)
+
+**Sorting by Assists**
+![Sort by Assists](https://github.com/GoosieGav/SoccerLens/assets/3249833044/issue-5-screenshot)
+
+**Advanced Filters**
+![Advanced Filters](https://github.com/GoosieGav/SoccerLens/assets/3249833651/issue-6-screenshot)
+
+**Similar Players Feature**
+![Similar Players](https://github.com/GoosieGav/SoccerLens/assets/3249834790/issue-7-screenshot)
 
 ## Features
 
@@ -65,6 +84,18 @@ Watch the SoccerLens mobile app in action:
 - **Statistics**: 47 fields per player with real-time calculations
 - **Search**: Full-text search with fuzzy matching
 - **Similarity**: Vector-based player matching algorithms
+
+## Dataset
+
+This project uses the [Football Players Stats 2024-2025](https://www.kaggle.com/datasets/hubertsidorowicz/football-players-stats-2024-2025) dataset from Kaggle, which provides comprehensive statistics for players across top European leagues including:
+
+- **Premier League** (England)
+- **La Liga** (Spain) 
+- **Serie A** (Italy)
+- **Bundesliga** (Germany)
+- **Ligue 1** (France)
+
+The dataset includes 47 statistical fields per player, covering attacking, defensive, possession, and goalkeeper statistics. Data is updated regularly to reflect current season performance.
 
 ## Database Schema
 
@@ -295,6 +326,7 @@ npx expo publish
 - **Data Coverage**: Premier League, La Liga, Serie A, Bundesliga, Ligue 1
 - **Update Frequency**: Seasonal updates with comprehensive statistics
 - **Data Quality**: Validated and cleaned data with error handling
+- **Dataset Source**: [Football Players Stats 2024-2025](https://www.kaggle.com/datasets/hubertsidorowicz/football-players-stats-2024-2025) on Kaggle
 
 ## Contributing
 
