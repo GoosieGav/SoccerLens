@@ -23,6 +23,9 @@ Watch the SoccerLens mobile app in action through these screenshots:
 **Advanced Filters**
 ![Advanced Filters](demo-screenshots/advanced-filters.png)
 
+**Player Details**
+![Player Details](demo-screenshots/player-details.png)
+
 **Similar Players Feature**
 ![Similar Players](demo-screenshots/similar-players.png)
 
