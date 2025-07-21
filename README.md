@@ -1,16 +1,24 @@
-# ⚽ SoccerLens
+# SoccerLens
 
 Your Ultimate Soccer Player Search & Analytics Platform
 
-## 🚀 Features
+## Demo
 
-### 🔍 Advanced Player Search
+Watch the SoccerLens mobile app in action:
+
+[Screen Recording Demo](https://github.com/YOUR_USERNAME/SoccerLens/assets/YOUR_USER_ID/demo-recording.mp4)
+
+*Note: Replace the placeholder URL with your actual GitHub repository and asset URL after uploading the screen recording*
+
+## Features
+
+### Advanced Player Search
 - **Fuzzy Search**: Find players by name, team, or nationality
 - **Smart Filtering**: Filter by position, league, age, goals, assists, and more
 - **Extensible Sorting**: Sort by 50+ statistics including goals, assists, defensive stats, and calculated metrics
 - **Real-time Results**: Instant search with pagination and performance optimization
 
-### 📊 Comprehensive Statistics
+### Comprehensive Statistics
 - **47 Statistical Fields** per player including:
   - **Attacking**: Goals, assists, expected goals (xG), shot accuracy
   - **Defensive**: Tackles, interceptions, blocks, clearances
@@ -18,25 +26,25 @@ Your Ultimate Soccer Player Search & Analytics Platform
   - **Goalkeeper**: Saves, clean sheets, goals against per 90
   - **Calculated Metrics**: Goals per 90, assists per 90, goal contributions
 
-### 🏆 Dynamic Leaderboards
+### Dynamic Leaderboards
 - **Top Goal Scorers**: Premier League, La Liga, Serie A, Bundesliga, Ligue 1
 - **Assist Leaders**: Best playmakers across all leagues
 - **Defensive Stats**: Top tacklers, interceptors, and shot blockers
 - **Goalkeeper Rankings**: Best save percentages and clean sheet records
 - **Extensible System**: Easy to add new leaderboard categories
 
-### 🎯 Player Similarity Search
+### Player Similarity Search
 - **Hybrid Matching**: Statistical + NLP-based similarity
 - **Style Analysis**: Find players with similar playing styles
 - **Advanced Algorithms**: Vector similarity with configurable methods
 
-### 📱 Mobile-First Design
+### Mobile-First Design
 - **React Native App**: Cross-platform iOS and Android support
 - **Modern UI**: Clean, intuitive interface with dark/light themes
 - **Offline-Ready**: Robust error handling and network connectivity checks
 - **Performance Optimized**: Fast loading and smooth navigation
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Backend
 - **Framework**: Django 4.2.7 + Django REST Framework 3.14.0
@@ -58,7 +66,7 @@ Your Ultimate Soccer Player Search & Analytics Platform
 - **Search**: Full-text search with fuzzy matching
 - **Similarity**: Vector-based player matching algorithms
 
-## 📊 Database Schema
+## Database Schema
 
 ### Player Model (47 fields)
 ```python
@@ -82,7 +90,7 @@ goals_against_per_90, save_percentage, clean_sheets, saves
 goals_assists, goal_contribution_per_90, dribble_success_percentage
 ```
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### Core Endpoints
 ```
@@ -120,7 +128,7 @@ curl "http://localhost:8000/api/players/1692/similar/?method=hybrid&limit=10"
 curl "http://localhost:8000/api/players/leaderboard/?stat=goals&limit=10"
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Backend Setup
 ```bash
@@ -171,7 +179,7 @@ curl http://localhost:8000/api/players/?page_size=5
 # Ensure your device/emulator can reach localhost:8000
 ```
 
-## 📱 Mobile App Features
+## Mobile App Features
 
 ### Screens
 - **Home**: Top scorers, assist leaders, quick actions
@@ -187,7 +195,7 @@ curl http://localhost:8000/api/players/?page_size=5
 - **Performance**: Optimized loading and smooth navigation
 - **Responsive Design**: Works on all screen sizes
 
-## 🔧 Configuration
+## Configuration
 
 ### Backend Settings
 ```python
@@ -210,11 +218,11 @@ CORS_ALLOWED_ORIGINS = [
 ### Mobile App Configuration
 ```typescript
 // API base URL (src/services/api.ts)
-const API_BASE_URL = 'http://localhost:8000';  // Development
-// const API_BASE_URL = 'https://your-api.com';  // Production
+const API_BASE_URL = 'http://localhost:8000';  # Development
+// const API_BASE_URL = 'https://your-api.com';  # Production
 ```
 
-## 📈 Performance & Optimization
+## Performance & Optimization
 
 ### Backend Optimizations
 - **Database Indexes**: Strategic indexing on frequently queried fields
@@ -230,7 +238,7 @@ const API_BASE_URL = 'http://localhost:8000';  // Development
 - **Memory Management**: Proper cleanup of event listeners
 - **Network Optimization**: Request caching and retry logic
 
-## 🧪 Testing
+## Testing
 
 ### Backend Testing
 ```bash
@@ -257,7 +265,7 @@ npm test -- --coverage
 npx detox test
 ```
 
-## 🚀 Deployment
+## Deployment
 
 ### Backend Deployment
 ```bash
@@ -281,14 +289,14 @@ npx expo build:android
 npx expo publish
 ```
 
-## 📊 Data Sources
+## Data Sources
 
 - **Player Statistics**: Official league data from top European competitions
 - **Data Coverage**: Premier League, La Liga, Serie A, Bundesliga, Ligue 1
 - **Update Frequency**: Seasonal updates with comprehensive statistics
 - **Data Quality**: Validated and cleaned data with error handling
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -296,11 +304,11 @@ npx expo publish
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🆘 Support
+## Support
 
 - **Documentation**: Check the code comments and API documentation
 - **Issues**: Report bugs and feature requests via GitHub Issues
@@ -308,4 +316,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-**SoccerLens** - Your Ultimate Soccer Player Search & Analytics Platform ⚽🏆 
+**SoccerLens** - Your Ultimate Soccer Player Search & Analytics Platform 
