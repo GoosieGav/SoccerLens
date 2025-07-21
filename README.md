@@ -11,9 +11,6 @@ Watch the SoccerLens mobile app in action through these screenshots:
 **Home Screen & Navigation**
 ![Home Screen](demo-screenshots/home-screen.png)
 
-**Player Search & Filtering**
-![Search & Filters](demo-screenshots/search-players.png)
-
 **Sorting by Name**
 ![Sort by Name](demo-screenshots/sort-by-name.png)
 
